@@ -1,0 +1,30 @@
+Crear proyecto DJANGO
+
+1. django-admin startproject xxx(cambiar xxx por el nombre del proyecto)
+
+/*
+	Con la instruccion anterior se crea una carpeta con el nombre xxx,
+	la cual contiene el proyecto
+*/
+2. python manage.py startapp xxx (se  cambia xxx por el nombre de la aplicacion)
+
+/*
+	Con la instruccion anterior se crea la aplicacion que queremos ejecutar,
+	para ello se debe ingresar a la carpeta creada en el paso 1 y luego se ejecuta la instruccion
+*/
+
+
+3. python manage.py runserver
+
+/*
+	Con la instruccion anterior se pone a correr el servidor de nuestra aplicacion,
+	el cual una vez que corre nos dice la ip y el puerto sobre el que corre,
+	
+	o bien se le puede decir sobre cuales queremos que corra.
+	
+	ej. python manage.py runserver x.x.x.x:xxxx
+	
+	o bien s se desea solo cambiar el puerto
+	
+	ej. python manage.py runserver xxxx
+*/
